@@ -12,15 +12,13 @@
         * Create a folder named: vars
         * Inside vars, create a Groovy script file.
 
-Example File:
+3. Example File: (Hello.groovy)
          
-         * Hello.groovy
-
-	        def call() {
-          echo "Hello dosto" }
+	 	def call() {
+   		echo "Hello dosto" }
           
 
-3. Configure Jenkins
+4. Configure Jenkins
    
         * Go to Jenkins Dashboard
         * Click on Manage Jenkins
@@ -28,7 +26,7 @@ Example File:
         * Scroll to Global Pipeline Libraries
 
 
-4. Click Add and fill in:
+5. Click Add and fill in:
 
         * Name: Shared (or any name)
         * Default Version: e.g., main
@@ -38,7 +36,7 @@ Example File:
         * Add credentials only if it’s a private repo
 
 
-5. Use Shared Library in Pipeline
+6. Use Shared Library in Pipeline
    
         * In your Jenkins pipeline (Jenkinsfile), reference the shared library using the @Library annotation
 
